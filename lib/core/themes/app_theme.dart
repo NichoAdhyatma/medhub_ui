@@ -6,6 +6,9 @@ class AppTheme {
   static ThemeData get theme => ThemeData(
         appBarTheme: const AppBarTheme(
           surfaceTintColor: AppPalette.backgroundColor,
+          iconTheme: IconThemeData(
+            color: AppPalette.primaryColor,
+          ),
         ),
         textTheme: GoogleFonts.overpassTextTheme().copyWith(
           bodyLarge: GoogleFonts.overpass(

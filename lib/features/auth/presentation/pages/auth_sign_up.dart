@@ -4,6 +4,7 @@ import 'package:medhub/core/common/widgets/primary_button.dart';
 import 'package:medhub/core/themes/app_palette.dart';
 import 'package:medhub/core/utils/sized_box.dart';
 import 'package:medhub/features/auth/presentation/cubit/password_visibility_cubit.dart';
+import 'package:medhub/features/auth/presentation/pages/auth_verify_page.dart';
 
 import 'auth_sign_in.dart';
 
@@ -97,7 +98,9 @@ class AuthSignUp extends StatelessWidget {
                     ),
                     60.heightSB,
                     PrimaryButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(AuthVerifyPage.route());
+                      },
                       label: "CREATE ACCOUNT",
                     ),
                     80.heightSB,

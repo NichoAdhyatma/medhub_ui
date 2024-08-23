@@ -7,6 +7,7 @@ class Assets {
   static const String authGoogleIcon = 'assets/images/auth/google_icon.png';
   static const String authLockPw = 'assets/images/auth/lock_pw.png';
   static const String authPersonIcon = 'assets/images/auth/person_icon.jpg';
+  static const String authSuccessBg = 'assets/images/auth/success_bg.png';
   static const String imagesAppIcon2x = 'assets/images/app_icon_2x.png';
   static const String imagesAppLogo2x = 'assets/images/app_logo_2x.png';
   static const String imagesAuthPersonIcon = 'assets/images/auth/person_icon.png';
