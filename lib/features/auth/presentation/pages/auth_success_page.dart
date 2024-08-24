@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:medhub/core/common/widgets/primary_button.dart';
 import 'package:medhub/core/themes/app_palette.dart';
 import 'package:medhub/core/utils/sized_box.dart';
+import 'package:medhub/features/home/presentation/pages/home_page.dart';
 import 'package:medhub/generated/assets.dart';
 
 class AuthSuccessPage extends StatelessWidget {
@@ -52,7 +53,9 @@ class AuthSuccessPage extends StatelessWidget {
               140.heightSB,
               PrimaryButton(
                 label: "CONTINUE",
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(HomePage.route());
+                },
               ),
             ],
           ),

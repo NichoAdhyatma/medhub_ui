@@ -8,11 +8,22 @@ class Assets {
   static const String authLockPw = 'assets/images/auth/lock_pw.png';
   static const String authPersonIcon = 'assets/images/auth/person_icon.jpg';
   static const String authSuccessBg = 'assets/images/auth/success_bg.png';
+  static const String categoriesBanner = 'assets/images/home/categories/banner.png';
+  static const String categoriesDental = 'assets/images/home/categories/dental.png';
+  static const String categoriesEyeCare = 'assets/images/home/categories/eye_care.png';
+  static const String categoriesHomeo = 'assets/images/home/categories/homeo.png';
+  static const String categoriesSkinHair = 'assets/images/home/categories/skin_hair.png';
+  static const String categoriesWellnes = 'assets/images/home/categories/wellnes.png';
+  static const String homeBanner = 'assets/images/home/banner.png';
+  static const String homeCart = 'assets/images/home/cart.png';
+  static const String homeElips = 'assets/images/home/elips.png';
+  static const String homeNotif = 'assets/images/home/notif.png';
   static const String imagesAppIcon2x = 'assets/images/app_icon_2x.png';
   static const String imagesAppLogo2x = 'assets/images/app_logo_2x.png';
   static const String imagesAuthPersonIcon = 'assets/images/auth/person_icon.png';
   static const String imagesSplashBg = 'assets/images/splash_bg.png';
   static const String onboardingOnboarding1 = 'assets/images/onboarding/onboarding_1.png';
   static const String onboardingOnboarding2 = 'assets/images/onboarding/onboarding_2.png';
+  static const String productProductOne = 'assets/images/home/product/product_one.png';
 
 }
