@@ -4,7 +4,7 @@ import 'package:medhub/core/utils/sized_box.dart';
 import 'package:medhub/generated/assets.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import 'category_widget.dart';
+import '../atoms/category_widget.dart';
 
 class TopCategoriesWidget extends StatelessWidget {
   const TopCategoriesWidget({

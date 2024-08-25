@@ -28,7 +28,6 @@ class BrandCardWidget extends StatelessWidget {
                 blurRadius: 14,
                 spreadRadius: 0,
                 offset: const Offset(0, 2),
-                blurStyle: BlurStyle.outer,
               ),
             ],
           ),

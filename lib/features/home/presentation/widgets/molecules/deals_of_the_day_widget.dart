@@ -3,7 +3,7 @@ import 'package:medhub/core/themes/app_palette.dart';
 import 'package:medhub/core/utils/sized_box.dart';
 import 'package:medhub/generated/assets.dart';
 
-import 'card_product_widget.dart';
+import '../atoms/card_product_widget.dart';
 
 class DealsOfTheDayWidget extends StatelessWidget {
   const DealsOfTheDayWidget({

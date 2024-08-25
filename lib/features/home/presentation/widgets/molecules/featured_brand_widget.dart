@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:medhub/core/utils/sized_box.dart';
 import 'package:medhub/generated/assets.dart';
 
-import 'brand_card_widget.dart';
+import '../atoms/brand_card_widget.dart';
 
 class FeaturedBrandWidget extends StatelessWidget {
   const FeaturedBrandWidget({
