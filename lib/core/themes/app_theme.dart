@@ -32,6 +32,19 @@ class AppTheme {
             fontWeight: FontWeight.bold,
           ),
         ),
+        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+          elevation: 1,
+          enableFeedback: false,
+          backgroundColor: AppPalette.backgroundColor,
+          selectedItemColor: AppPalette.primaryColor,
+          unselectedItemColor: AppPalette.secondaryMutedColor,
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
+          type: BottomNavigationBarType.shifting,
+          selectedIconTheme: IconThemeData(
+            color: AppPalette.accentColor,
+          ),
+        ),
         primaryColor: AppPalette.primaryColor,
         scaffoldBackgroundColor: AppPalette.backgroundColor,
         colorScheme: const ColorScheme.light(

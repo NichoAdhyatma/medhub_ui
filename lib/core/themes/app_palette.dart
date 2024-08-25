@@ -30,4 +30,9 @@ class AppPalette {
   static const gradientBlack2 = Color.fromRGBO(9, 15, 71, 1);
 
   static const cardColor = Color.fromRGBO(243, 244, 245, 1);
+
+  static const shadowColor = Color.fromRGBO(0, 0, 0, 0.03);
+
+  static const backgroundHomeColor = Color.fromRGBO(247, 251, 255, 1);
+  static const bottomNavbarShadow = Color.fromRGBO(9, 15, 71, 0.04);
 }

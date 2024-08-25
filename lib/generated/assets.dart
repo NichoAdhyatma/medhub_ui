@@ -8,6 +8,10 @@ class Assets {
   static const String authLockPw = 'assets/images/auth/lock_pw.png';
   static const String authPersonIcon = 'assets/images/auth/person_icon.jpg';
   static const String authSuccessBg = 'assets/images/auth/success_bg.png';
+  static const String brandsAccu = 'assets/images/home/brands/accu.png';
+  static const String brandsHimalaya = 'assets/images/home/brands/himalaya.png';
+  static const String brandsProtinex = 'assets/images/home/brands/protinex.png';
+  static const String brandsVlcc = 'assets/images/home/brands/vlcc.png';
   static const String categoriesBanner = 'assets/images/home/categories/banner.png';
   static const String categoriesDental = 'assets/images/home/categories/dental.png';
   static const String categoriesEyeCare = 'assets/images/home/categories/eye_care.png';
@@ -25,5 +29,6 @@ class Assets {
   static const String onboardingOnboarding1 = 'assets/images/onboarding/onboarding_1.png';
   static const String onboardingOnboarding2 = 'assets/images/onboarding/onboarding_2.png';
   static const String productProductOne = 'assets/images/home/product/product_one.png';
+  static const String productProductTwo = 'assets/images/home/product/product_two.png';
 
 }

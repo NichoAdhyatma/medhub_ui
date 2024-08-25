@@ -3,8 +3,12 @@ import 'package:medhub/core/themes/app_palette.dart';
 import 'package:medhub/core/utils/sized_box.dart';
 
 class CategoryWidget extends StatelessWidget {
-  const CategoryWidget(
-      {super.key, required this.label, required this.image, this.colors});
+  const CategoryWidget({
+    super.key,
+    required this.label,
+    required this.image,
+    this.colors,
+  });
 
   final String label;
   final String image;
